@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 20275644950084186}
   - component: {fileID: 20275644950084185}
   - component: {fileID: 20275644950084184}
+  - component: {fileID: 7917394935166679243}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -558,3 +559,15 @@ MonoBehaviour:
   textMeshPro: {fileID: 20275643202452537}
   fieldName: Music Volume
   soundType: 0
+--- !u!114 &7917394935166679243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20275644950084187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174c129951399c041aaff031e14f94f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

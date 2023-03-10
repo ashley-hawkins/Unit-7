@@ -16,11 +16,11 @@ public class SoundSystem : MonoBehaviour
         soundSources = new();
         if (soundSystem != null)
         {
-            Destroy(this);
+            Destroy(gameObject);
             return;
         }
         soundSystem = this;
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(gameObject);
         Init();
     }
 
